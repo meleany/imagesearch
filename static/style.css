@@ -1,0 +1,67 @@
+body{
+  background-image: url("/resources/BackImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Fredericka the Great;
+  font-size: 18px;
+}
+
+h1{
+  font-family: Spirax; 
+  font-size: 35px;
+  color: rgb(31,49,67);
+  text-shadow: 2px 2px 0px rgb(255,255,255);
+  text-align: center;
+  padding-top: 30px;
+}
+
+h3{
+  font-family: Spirax;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div{
+  color: rgb(29,68,116);
+  text-shadow: 2px 2px 1px rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.25);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#p2{
+  font-family: Spirax; 
+  text-weight: bold;
+  color: rgb(31,49,67);
+  text-shadow: 2px 2px 0px rgb(255,255,255);
+  font-size: 22px;
+}
+
+#link{
+  color: red;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(31,49,67);
+}
+
+#footer{
+  font-family: Amatica SC;
+  font-weight: bold;
+  font-size: 18px;  
+  text-shadow: 5px 3px 2px rgb(248,251,247);
+  color: rgb(31,49,67);
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.25);
+  border-top: 8px double rgba(255,255,255,0.6);
+  margin-top: 30px;
+}

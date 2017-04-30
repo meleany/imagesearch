@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    link(href='https://fonts.googleapis.com/css?family=Spirax', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Fredericka the Great', rel='stylesheet')  
+    link(href='https://fonts.googleapis.com/css?family=Amatica SC', rel='stylesheet')
+    link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet")
+    style
+      include style.css
+    title Img Search
+  body
+    h1 Image Search Abstraction Layer
+    h3 An API Project for FreeCodeCamp
+    div
+      p Image search microservice accepts a given image search string and returns the corresponding image URLS, alt text and page URLS.
+      p Add the parameter ?offset=num (i.e. num=2) to the URL to paginate through the responses.
+      p#p2 
+        strong Example: 
+        p 
+          a#link(href=url target="_blank") #{url}
+        
+      p You can also get a list of the most recently submitted search strings.
+      p#p2 
+        strong Example:
+        p
+          a#link(href=latest target="_blank") #{latest}
+    include foot.pug
